@@ -1,0 +1,60 @@
+﻿										PROTEL.WebApi Documentation
+
+													V 1.0
+
+										Base URL: http://localhost:9740/api/ExchangeRates
+
+							PROTEL.WebApi has predictable resource-oriented URLs, 
+							accepts json-encoded request bodies, returns JSON-encoded responses,
+							and uses standard HTTP response codes. The PROTEL.WebApi don't 
+							uses API keys to authenticate requests.
+										
+			
+		1.	GetService1
+
+			•	Method Type: GET 
+			•	Route: {BaseURL}/GetService1
+
+			Response:
+			•	 {
+				   "id": 0,
+				   "currency": "USD",
+				   "date": "10.09.2021",
+				   "rate": 8.4044,
+				   "changes": 0
+				   }
+
+
+		2.	GetService2
+			
+			•	Method Type: GET 
+			•	Route: {Base URL}/GetService2
+
+			Response:
+			•	{
+				    "id": 51,
+				    "currency": "USD",
+                    "date": "11.02.2022",
+                    "rate": 13.4933
+                 },
+				{
+					"id": 52,
+					"currency": "EUR",
+					"date": "11.02.2022",
+					"rate": 15.3674
+				},
+				{
+					"id": 53,
+					"currency": "GBP",
+					"date": "11.02.2022",
+					"rate": 18.2544
+				},
+
+
+	
+
+
+
+
+
+
